@@ -1,8 +1,8 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://Base.gd" type="Script" id=1]
-[ext_resource path="res://Sound.gd" type="Script" id=2]
-[ext_resource path="res://VSlider.gd" type="Script" id=3]
+[ext_resource path="res://scripts/Base.gd" type="Script" id=1]
+[ext_resource path="res://scripts/Sound.gd" type="Script" id=2]
+[ext_resource path="res://scripts/VSlider.gd" type="Script" id=3]
 
 [node name="Base" type="Node2D"]
 script = ExtResource( 1 )
@@ -43,5 +43,4 @@ margin_right = 33.8374
 margin_bottom = 261.938
 text = "Volume
 "
-
 [connection signal="value_changed" from="VSlider" to="Sound" method="_on_VSlider_value_changed"]
