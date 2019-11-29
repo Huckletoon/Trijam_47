@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Eflat.wav-2289402e74025a1602a2ea4b7b1eb444.sample"
+
+[deps]
+
+source_file="res://sound/Eflat.wav"
+dest_files=[ "res://.import/Eflat.wav-2289402e74025a1602a2ea4b7b1eb444.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=true
+edit/normalize=true
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,15 @@
+[gd_resource type="AudioBusLayout" load_steps=2 format=2]
+
+[sub_resource type="AudioEffectReverb" id=1]
+resource_name = "Reverb"
+room_size = 0.22
+damping = 0.79
+spread = 0.36
+dry = 0.1
+wet = 1.0
+
+[resource]
+bus/0/volume_db = -15.9
+bus/0/effect/0/effect = SubResource( 1 )
+bus/0/effect/0/enabled = true
+
